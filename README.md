@@ -12,16 +12,16 @@ This decentralized application is currently made up of 3 smart contracts
 
 * [`AssociateProfitSplitter.sol`](ProfitSharing/AssociateProfitSplitter.sol)  
 
-- Function: Pay your Associate-level employees quickly and easily.    
-- Smart Contract Detail: This will accept Ether into the contract and divide the Ether evenly among the associate level employees. This will allow the Human Resources department to pay employees quickly and efficiently.    
+    - Function: Pay your Associate-level employees quickly and easily.    
+    - Smart Contract Detail: This will accept Ether into the contract and divide the Ether evenly among the associate level employees. This will allow the Human Resources department to pay employees quickly and efficiently.    
     
 * [`TieredProfitSplitter.sol`](ProfitSharing/TieredProfitSplitter.sol)   
-- Function: Distribute profits to different tiers of employees.   
-- Smart Contract Detail: will distribute different percentages of incoming Ether to employees at different tiers/levels. For example, the CEO gets paid 60%, CTO 25%, and Bob gets 15%. 
+    - Function: Distribute profits to different tiers of employees.   
+    - Smart Contract Detail: will distribute different percentages of incoming Ether to employees at different tiers/levels. For example, the CEO gets paid 60%, CTO 25%, and Bob gets 15%. 
     
 * [`DeferredEquityPlan.sol`](ProfitSharing/DeferredEquityPlan.sol)  
-- Function: Distribute company shares for employees in a "deferred equity incentive plan" automatically.
-- Smart Contract Detail: Models traditional company stock plans. This contract will automatically manage 1000 shares with an annual distribution of 250 over 4 years for a single employee.
+    - Function: Distribute company shares for employees in a "deferred equity incentive plan" automatically.
+    - Smart Contract Detail: Models traditional company stock plans. This contract will automatically manage 1000 shares with an annual distribution of 250 over 4 years for a single employee.
  
  
 ### Understanding Deferred Equity 
