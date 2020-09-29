@@ -2,24 +2,26 @@
 ---
 
 This decentralized application was built using
-    - Solidity: Solidity is a smart contract programming language that runs on many blockchains, namely, Ethereum (EVM) compatible chains. It is heavily inspired by Javascript, C++, and Python
-    - Ethereum: Global, open-source platform for decentralized applications
-    - Remix: Open Source IDE that helps your write Solidity contracts straight from the browser
-    - Ganache: Personal blockchain for rapid Ethereum dApp development
+
+1. Solidity: Solidity is a smart contract programming language that runs on many blockchains, namely, Ethereum (EVM) compatible chains. It is heavily inspired by Javascript, C++, and Python
+2. Ethereum: Global, open-source platform for decentralized applications
+3. Remix: Open Source IDE that helps your write Solidity contracts straight from the browser
+4. Ganache: Personal blockchain for rapid Ethereum dApp development
     
 This decentralized application is currently made up of 3 smart contracts
 
-* [`AssociateProfitSplitter.sol`](Starter-Code/AssociateProfitSplitter.sol)
-    Function: Pay your Associate-level employees quickly and easily.  
-    Smart Contract Detail: This will accept Ether into the contract and divide the Ether evenly among the associate level employees. This will allow the Human Resources department to pay employees quickly and efficiently.  
+* [`AssociateProfitSplitter.sol`](ProfitSharing/AssociateProfitSplitter.sol)  
+
+- Function: Pay your Associate-level employees quickly and easily.    
+- Smart Contract Detail: This will accept Ether into the contract and divide the Ether evenly among the associate level employees. This will allow the Human Resources department to pay employees quickly and efficiently.    
     
-* [`TieredProfitSplitter.sol`](Starter-Code/TieredProfitSplitter.sol) 
-    Function: Distribute profits to different tiers of employees. 
-    Smart Contract Detail: will distribute different percentages of incoming Ether to employees at different tiers/levels. For example, the CEO gets paid 60%, CTO 25%, and Bob gets 15%. 
+* [`TieredProfitSplitter.sol`](ProfitSharing/TieredProfitSplitter.sol)   
+- Function: Distribute profits to different tiers of employees.   
+- Smart Contract Detail: will distribute different percentages of incoming Ether to employees at different tiers/levels. For example, the CEO gets paid 60%, CTO 25%, and Bob gets 15%. 
     
-* [`DeferredEquityPlan.sol`](Starter-Code/DeferredEquityPlan.sol) -- Level 3 starter code.
-    Function: Distribute company shares for employees in a "deferred equity incentive plan" automatically.
-    Smart Contract Detail: Models traditional company stock plans. This contract will automatically manage 1000 shares with an annual distribution of 250 over 4 years for a single employee.
+* [`DeferredEquityPlan.sol`](ProfitSharing/DeferredEquityPlan.sol)  
+- Function: Distribute company shares for employees in a "deferred equity incentive plan" automatically.
+- Smart Contract Detail: Models traditional company stock plans. This contract will automatically manage 1000 shares with an annual distribution of 250 over 4 years for a single employee.
  
  
 ### Understanding Deferred Equity 
